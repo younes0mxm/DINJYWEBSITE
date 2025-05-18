@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dinjy - platforms</title>
+  <style>
+    body {
+      background-color: #1a001a;
+      color: #e0b3ff;
+      font-family: 'Courier New', monospace;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .container {
+      padding: 2rem;
+    }
+
+    h1 {
+      color: #cc66ff;
+      text-shadow: 0 0 10px #cc66ff;
+    }
+
+    .glitch {
+      font-size: 2rem;
+      position: relative;
+      color: #e0b3ff;
+      animation: glitch 1s infinite;
+    }
+
+    @keyframes glitch {
+      0%, 100% { text-shadow: 2px 2px #ff00ff, -2px -2px #00ffff; }
+      20% { text-shadow: -2px -2px #ff00ff, 2px 2px #00ffff; }
+      40% { text-shadow: 2px -2px #ff00ff, -2px 2px #00ffff; }
+      60% { text-shadow: -2px 2px #ff00ff, 2px -2px #00ffff; }
+      80% { text-shadow: 2px 2px #ff00ff, -2px -2px #00ffff; }
+    }
+
+    .hacker-effect {
+      background: repeating-linear-gradient(
+        45deg,
+        #1a001a,
+        #1a001a 10px,
+        #330033 10px,
+        #330033 20px
+      );
+      animation: backgroundShift 5s linear infinite;
+    }
+
+    @keyframes backgroundShift {
+      0% { background-position: 0 0; }
+      100% { background-position: 100% 100%; }
+    }
+
+    a {
+      color: #cc66ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .ayah {
+      margin-top: 2rem;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #ffffff;
+      text-align: center;
+      text-shadow: 0 0 5px #9900cc;
+    }
+  </style>
+</head>
+<body class="hacker-effect">
+  <div class="container">
+    <h1 class="glitch">D I N J Y</h1>
+    <p>Welcome to the official website of DINJY.</p>
+    <p>linux  -  windows  -  programming   -  andoriod  - editing  -   تنمر على الزنوج</p>
+    <p>Connect with me:</p>
+    <ul>
+      <li>📘 <a href="https://www.facebook.com/younesmxm2/" target="_blank">Facebook</a></li>
+      <li>📸 <a href="https://www.instagram.com/plyboi.yonu" target="_blank">@plyboi.yonu</a> (Instagram)</li>
+      <li>📺 <a href="https://www.youtube.com/@Younesmxm" target="_blank">YouTube Channel</a></li>
+    </ul>
+    <div class="ayah">
+      ﴾يا أَيُّهَا الَّذِينَ آمَنُوا اسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ إِنَّ اللَّهَ مَعَ الصَّابِرِينَ﴿
+    </div>
+  </div>
+</body>
+</html>
+
